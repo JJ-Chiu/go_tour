@@ -5,7 +5,8 @@ import (
 )
 
 func main() {
-	Crawl("https://golang.org/", 4, fetcher)
+	wc := NewWebCrawler()
+	wc.Crawl("https://golang.org/", 4, fetcher)
 }
 
 // fakeFetcher is Fetcher that returns canned results.
