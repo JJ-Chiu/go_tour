@@ -1,0 +1,1 @@
+# Exercises of Go tutorial
